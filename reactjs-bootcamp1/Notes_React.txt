@@ -1,0 +1,28 @@
+﻿REACT INIT
+
+// Babel converte código JS (ES6) para versões antigas.
+
+npm i -g create-react-app
+create-react-app modulo05
+
+yarn add create-react-app
+
+yarn create react-app modulo05 -> cria tudo do react (encapsulado)
+
+yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
+yarn add react react-dom
+yarn add babel-loader -D
+yarn add webpack-dev-server -D -> Recarregar ao salvar javascript
+
+yarn add style-loader css-loader -D 
+style-loader -> importar arquivo .css
+css-loader -> entender importações de arquivos no .css, background-image url, etc.
+
+yarn add file-loader -D -> importar imagens
+yarn add @babel/plugin-proposal-class-properties -D -> sintaxe no state (estado) na classe, para poder usar o state = {}
+
+<>
+  Fragment -> pra colocar o componente dentro de um "container" (não precisar colocar dentro de uma div)
+</>
+
+yarn add prop-types -> informa se ta pasasndo propriedade em um formato não correto

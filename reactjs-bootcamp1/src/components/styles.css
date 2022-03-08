@@ -1,0 +1,20 @@
+#tech_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tech_form li {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+#tech_form li > span {
+  margin-right: 15px;
+}
+
+#tech_form .actions {
+  display: flex;
+  height: 30px;
+}

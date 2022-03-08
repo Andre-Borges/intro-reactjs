@@ -1,0 +1,2 @@
+npm i -g create-react-app / yarn add create-react-app
+yarn create react-app 

@@ -1,0 +1,25 @@
+prettier -> auto identação do código
+
+npm init -y
+
+npm install express
+
+npm install -D nodemon -> faz a reinicialização do servidor automaticamente quando faz alguma alteranção no código.
+
+package.json, dentro de scripts -> "dev": "nodemon server.js" -> npm run dev
+
+docker pull mongo
+
+docker run --name mongodb -p 27017:27017 -d mongo
+
+docker ps -> imagens rodando
+
+docker ps -a -> todas imagens, até as que não estão rodando
+
+docker start 'nome_imagem' -> startar container
+
+npm install require-dir -> require automaticamente de tudo que estiver na pasta
+
+npm install mongoose-paginate -> paginação
+
+npm install cors -> acesso externo
